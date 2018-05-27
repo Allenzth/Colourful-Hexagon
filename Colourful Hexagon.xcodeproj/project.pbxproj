@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F70AF1C20B90B1400F475A1 /* UtiFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70AF1B20B90B1400F475A1 /* UtiFuncs.swift */; };
+		9F70AF1E20B9102400F475A1 /* SideObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70AF1D20B9102400F475A1 /* SideObject.swift */; };
+		9F70AF2020B910B100F475A1 /* ModelsAndData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70AF1F20B910B100F475A1 /* ModelsAndData.swift */; };
+		9F70AF2220B9204F00F475A1 /* BallObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70AF2120B9204F00F475A1 /* BallObject.swift */; };
+		9F70AF2B20BA422700F475A1 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70AF2A20BA422700F475A1 /* GameOverScene.swift */; };
+		9F70AF3820BB0D4900F475A1 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F70AF3720BB0D4900F475A1 /* GameOverScene.sks */; };
+		9F70AF3A20BB110800F475A1 /* MainmenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9F70AF3920BB110800F475A1 /* MainmenuScene.sks */; };
+		9F70AF3C20BB111700F475A1 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70AF3B20BB111700F475A1 /* MainMenuScene.swift */; };
+		9F70AF4220BB1DAB00F475A1 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F70AF4120BB1DAB00F475A1 /* CaviarDreams.ttf */; };
 		9FC0191520A3954D00F933E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0191420A3954D00F933E5 /* AppDelegate.swift */; };
-		9FC0191720A3954D00F933E5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0191620A3954D00F933E5 /* GameScene.sks */; };
-		9FC0191920A3954D00F933E5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0191820A3954D00F933E5 /* Actions.sks */; };
 		9FC0191B20A3954D00F933E5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0191A20A3954D00F933E5 /* GameScene.swift */; };
 		9FC0191D20A3954D00F933E5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0191C20A3954D00F933E5 /* GameViewController.swift */; };
 		9FC0192020A3954D00F933E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0191E20A3954D00F933E5 /* Main.storyboard */; };
@@ -37,10 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F70AF1B20B90B1400F475A1 /* UtiFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtiFuncs.swift; sourceTree = "<group>"; };
+		9F70AF1D20B9102400F475A1 /* SideObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideObject.swift; sourceTree = "<group>"; };
+		9F70AF1F20B910B100F475A1 /* ModelsAndData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsAndData.swift; sourceTree = "<group>"; };
+		9F70AF2120B9204F00F475A1 /* BallObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallObject.swift; sourceTree = "<group>"; };
+		9F70AF2A20BA422700F475A1 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		9F70AF3720BB0D4900F475A1 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		9F70AF3920BB110800F475A1 /* MainmenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainmenuScene.sks; sourceTree = "<group>"; };
+		9F70AF3B20BB111700F475A1 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		9F70AF4120BB1DAB00F475A1 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
 		9FC0191120A3954D00F933E5 /* Colourful Hexagon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colourful Hexagon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC0191420A3954D00F933E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FC0191620A3954D00F933E5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9FC0191820A3954D00F933E5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9FC0191A20A3954D00F933E5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9FC0191C20A3954D00F933E5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9FC0191F20A3954D00F933E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +94,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F70AF2320B9206900F475A1 /* Objects, Models and Data */ = {
+			isa = PBXGroup;
+			children = (
+				9F70AF2120B9204F00F475A1 /* BallObject.swift */,
+				9F70AF1D20B9102400F475A1 /* SideObject.swift */,
+				9F70AF1F20B910B100F475A1 /* ModelsAndData.swift */,
+			);
+			path = "Objects, Models and Data";
+			sourceTree = "<group>";
+		};
+		9F70AF3D20BB116D00F475A1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9F70AF3720BB0D4900F475A1 /* GameOverScene.sks */,
+				9FC0191A20A3954D00F933E5 /* GameScene.swift */,
+				9F70AF3920BB110800F475A1 /* MainmenuScene.sks */,
+				9F70AF3B20BB111700F475A1 /* MainMenuScene.swift */,
+				9F70AF2A20BA422700F475A1 /* GameOverScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		9FC0190820A3954D00F933E5 = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				9FC0191420A3954D00F933E5 /* AppDelegate.swift */,
-				9FC0191620A3954D00F933E5 /* GameScene.sks */,
-				9FC0191820A3954D00F933E5 /* Actions.sks */,
-				9FC0191A20A3954D00F933E5 /* GameScene.swift */,
+				9F70AF3D20BB116D00F475A1 /* Scenes */,
+				9F70AF2320B9206900F475A1 /* Objects, Models and Data */,
+				9F70AF1B20B90B1400F475A1 /* UtiFuncs.swift */,
 				9FC0191C20A3954D00F933E5 /* GameViewController.swift */,
+				9F70AF4120BB1DAB00F475A1 /* CaviarDreams.ttf */,
 				9FC0191E20A3954D00F933E5 /* Main.storyboard */,
 				9FC0192120A3954F00F933E5 /* Assets.xcassets */,
 				9FC0192320A3954F00F933E5 /* LaunchScreen.storyboard */,
@@ -239,10 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC0192020A3954D00F933E5 /* Main.storyboard in Resources */,
-				9FC0191720A3954D00F933E5 /* GameScene.sks in Resources */,
 				9FC0192220A3954F00F933E5 /* Assets.xcassets in Resources */,
+				9F70AF4220BB1DAB00F475A1 /* CaviarDreams.ttf in Resources */,
+				9F70AF3820BB0D4900F475A1 /* GameOverScene.sks in Resources */,
+				9F70AF3A20BB110800F475A1 /* MainmenuScene.sks in Resources */,
 				9FC0192520A3954F00F933E5 /* LaunchScreen.storyboard in Resources */,
-				9FC0191920A3954D00F933E5 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +306,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC0191B20A3954D00F933E5 /* GameScene.swift in Sources */,
+				9F70AF2220B9204F00F475A1 /* BallObject.swift in Sources */,
+				9F70AF2B20BA422700F475A1 /* GameOverScene.swift in Sources */,
+				9F70AF3C20BB111700F475A1 /* MainMenuScene.swift in Sources */,
 				9FC0191D20A3954D00F933E5 /* GameViewController.swift in Sources */,
+				9F70AF1E20B9102400F475A1 /* SideObject.swift in Sources */,
+				9F70AF1C20B90B1400F475A1 /* UtiFuncs.swift in Sources */,
 				9FC0191520A3954D00F933E5 /* AppDelegate.swift in Sources */,
+				9F70AF2020B910B100F475A1 /* ModelsAndData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24SM6522LU;
 				INFOPLIST_FILE = "Colourful Hexagon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24SM6522LU;
 				INFOPLIST_FILE = "Colourful Hexagon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
